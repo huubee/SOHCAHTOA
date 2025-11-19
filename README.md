@@ -1,15 +1,9 @@
 # SOH CAH TOA
 
-A Flutter project to automatically calculate sides and angles of a rightsides triangle by providing two values. It is in development.
+A Flutter project to automatically calculate sides and angles of a rightsided triangle by providing two values. It is in development.
 
-## Getting Started
- 
-This project is a starting point for a Flutter application.
+There are still a few errors in it.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
