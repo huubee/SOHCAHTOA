@@ -1,0 +1,10 @@
+{
+    "@@locale": "nl",
+    "appTitle": "SOH CAH TOA",
+    "pageHomeTitle": "Rekenmachine",
+    "pageSettingsTitle": "Instellingen",
+    "theme": "Thema",
+    "light": "Licht",
+    "dark": "Donker",
+    "language": "Taal"
+}

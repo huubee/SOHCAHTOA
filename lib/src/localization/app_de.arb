@@ -1,0 +1,11 @@
+
+{
+    "@@locale": "de",
+    "appTitle": "SOH CAH TOA",
+    "pageHomeTitle": "Rechner",
+    "pageSettingsTitle": "Einstellungen",
+    "theme": "Thema",
+    "light": "Licht",
+    "dark": "Dunkel",
+    "language": "Sprache"
+}

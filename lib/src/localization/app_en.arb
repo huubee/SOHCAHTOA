@@ -1,0 +1,11 @@
+
+{
+  "@@locale": "en",
+  "appTitle": "SOH CAH TOA",
+  "pageHomeTitle": "Calculator",
+  "pageSettingsTitle": "Settings",
+  "theme": "Theme",
+  "light": "Light",
+  "dark": "Dark",
+  "language": "Language"
+}
