@@ -1,6 +1,6 @@
 # myapp
 
-A new Flutter project.
+A Flutter project to automatically calculate sides and angles of a rightsides triangle by providing two values. It is in development.
 
 ## Getting Started
 
