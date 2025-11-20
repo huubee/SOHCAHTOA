@@ -118,11 +118,89 @@ abstract class AppLocalizations {
   /// **'Settings'**
   String get pageSettingsTitle;
 
+  /// No description provided for @trigonometryTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'SOH CAH TOA Calculator'**
+  String get trigonometryTitle;
+
+  /// No description provided for @calculatorTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Calculator'**
+  String get calculatorTitle;
+
+  /// No description provided for @historyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get historyTitle;
+
+  /// No description provided for @clear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get clear;
+
+  /// No description provided for @opposite.
+  ///
+  /// In en, this message translates to:
+  /// **'Opposite'**
+  String get opposite;
+
+  /// No description provided for @adjacent.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjacent'**
+  String get adjacent;
+
+  /// No description provided for @hypotenuse.
+  ///
+  /// In en, this message translates to:
+  /// **'Hypotenuse'**
+  String get hypotenuse;
+
+  /// No description provided for @angleAlpha.
+  ///
+  /// In en, this message translates to:
+  /// **'Angle α'**
+  String get angleAlpha;
+
+  /// No description provided for @angleBeta.
+  ///
+  /// In en, this message translates to:
+  /// **'Angle β'**
+  String get angleBeta;
+
+  /// No description provided for @calculatedValue.
+  ///
+  /// In en, this message translates to:
+  /// **'Calculated value'**
+  String get calculatedValue;
+
   /// No description provided for @theme.
   ///
   /// In en, this message translates to:
   /// **'Theme'**
   String get theme;
+
+  /// No description provided for @theme1.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme 1'**
+  String get theme1;
+
+  /// No description provided for @theme2.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme 2'**
+  String get theme2;
+
+  /// No description provided for @theme3.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme 3'**
+  String get theme3;
 
   /// No description provided for @light.
   ///
@@ -141,6 +219,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Language'**
   String get language;
+
+  /// No description provided for @english.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get english;
+
+  /// No description provided for @german.
+  ///
+  /// In en, this message translates to:
+  /// **'Deutsch'**
+  String get german;
+
+  /// No description provided for @dutch.
+  ///
+  /// In en, this message translates to:
+  /// **'Nederlands'**
+  String get dutch;
 }
 
 class _AppLocalizationsDelegate

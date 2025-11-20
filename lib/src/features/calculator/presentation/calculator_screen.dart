@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:myapp/src/features/calculator/application/calculator_provider.dart';
+import 'package:trig_sct/src/features/calculator/application/calculator_provider.dart';
+import 'package:trig_sct/src/localization/app_localizations.dart';
 
 class CalculatorScreen extends ConsumerWidget {
   const CalculatorScreen({super.key});
@@ -9,6 +10,7 @@ class CalculatorScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final state = ref.watch(calculatorProvider);
+    final localizations = AppLocalizations.of(context)!;
     final buttonStyle = ElevatedButton.styleFrom(
       textStyle: Theme.of(context).textTheme.headlineMedium,
       shape: const CircleBorder(),
@@ -25,11 +27,15 @@ class CalculatorScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Calculator'),
+        title: Text(localizations.calculatorTitle),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => context.go('/'),
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.history),
-            onPressed: () => context.go('/history'),
+            onPressed: () => context.go('/calculator/history'),
           ),
         ],
       ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:myapp/src/config/theme/app_theme.dart';
+import 'package:trig_sct/src/config/theme/app_theme.dart';
 
 final activeThemeProvider = Provider<ThemeData>((ref) {
   final themeNotifier = ref.watch(themeProvider);

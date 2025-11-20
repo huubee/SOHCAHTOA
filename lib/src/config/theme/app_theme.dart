@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/src/config/theme/app_colors.dart';
+import 'package:trig_sct/src/config/theme/app_colors.dart';
 
 class AppTheme {
   static final TextTheme _appTextTheme = TextTheme(

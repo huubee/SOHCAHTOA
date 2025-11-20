@@ -1,5 +1,5 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:myapp/src/features/calculator/application/calculator_state.dart';
+import 'package:trig_sct/src/features/calculator/application/calculator_state.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 part 'calculator_provider.g.dart';

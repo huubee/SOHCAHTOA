@@ -1,10 +1,26 @@
 {
     "@@locale": "nl",
-    "appTitle": "SOH CAH TOA",
+    "appTitle": "SOS CAS TOA",
     "pageHomeTitle": "Rekenmachine",
     "pageSettingsTitle": "Instellingen",
+    "trigonometryTitle": "SOS CAS TOA Rekenmachine",
+    "calculatorTitle": "Rekenmachine",
+    "historyTitle": "Geschiedenis",
+    "clear": "Wissen",
+    "opposite": "Overstaande",
+    "adjacent": "Aanliggende",
+    "hypotenuse": "Schuine",
+    "angleAlpha": "Hoek α",
+    "angleBeta": "Hoek β",
+    "calculatedValue": "Berekende waarde",
     "theme": "Thema",
+    "theme1": "Thema 1",
+    "theme2": "Thema 2",
+    "theme3": "Thema 3",
     "light": "Licht",
     "dark": "Donker",
-    "language": "Taal"
+    "language": "Taal",
+    "english": "Engels",
+    "german": "Duits",
+    "dutch": "Nederlands"
 }
